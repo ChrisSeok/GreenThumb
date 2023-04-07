@@ -19,9 +19,9 @@ from selenium.webdriver.common.by import By
 
 def ImageCrawl(search_term, log_file, dir):
     # directory where images will be downloaded   
-    dirname = dir+'\\'+search_term
-    if not os.path.exists(dirname):
-        os.makedirs(dirname)
+    savedir = dir+'\\'+search_term
+    if not os.path.exists(savedir):
+        os.makedirs(savedir)
 
     # log 설정
     now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -89,8 +89,6 @@ def ImageCrawl(search_term, log_file, dir):
     logger.info("len of img tags:%d",len(img_tags))
 
 
-
-    savedir = dir+'\\'+search_term
     num_saved = 0
     count = 0
     # loop through the image tags and save the images
