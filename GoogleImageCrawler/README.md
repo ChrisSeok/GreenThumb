@@ -1,5 +1,5 @@
 # Google Image Crawler
-구글에 키워드를 검색하여 해당 이미지들을 로컬디스크에 저장
+구글 이미지를 수집하여 로컬디스크에 저장
 
 # directory tree
 ```
