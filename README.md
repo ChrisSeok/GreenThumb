@@ -1,4 +1,6 @@
 # GreenThumb
-2023 CS Graduation Project <br>
-Currently only holds Data part sources. 
-Backend & ML sources will be added soon!
+Computer Engineering Graduation Project <br>
+GreenThumb is an integrated AI home gardening website
+featuring plant species detection, providing gardening method, community board for interaction, and more.
+
+
